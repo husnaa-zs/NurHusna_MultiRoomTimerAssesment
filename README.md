@@ -47,7 +47,9 @@ Usage
 About This Project
 This was created as part of an interview assessment to demonstrate:
 1.Setting up a real-time backend using Socket.IO
+
 2.Connecting a Nuxt frontend with live data updates
+
 3.Building basic interactive UI components in Vue
 
 Next Steps
