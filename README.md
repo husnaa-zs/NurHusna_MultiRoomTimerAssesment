@@ -44,9 +44,6 @@ Usage
 2.Click Start to begin countdown, Stop to pause, or Reset to restart
 3.A sound alert will play when timer finishes
 
-Live Demo
-(If using GitHub Pages or Vercel later, link will go here)
-
 About This Project
 This was created as part of an interview assessment to demonstrate:
 1.Setting up a real-time backend using Socket.IO
