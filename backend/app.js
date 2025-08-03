@@ -1,4 +1,4 @@
-// start programming~
+
 console.log("App.js started...");
 
 const express = require('express');
@@ -21,7 +21,7 @@ let rooms = {
   room3: { remaining: 300, running: false, interval: null },
 };
 
-// **Function to send safe data (exclude interval)**
+// Function send safe data
 function getSafeRooms() {
   return {
     room1: { remaining: rooms.room1.remaining, running: rooms.room1.running },
@@ -61,7 +61,7 @@ function resetTimer(roomName) {
 io.on('connection', (socket) => {
   console.log('Client connected');
 
-  // Send safe state to client
+
   socket.emit('initial-state', getSafeRooms());
 
   socket.on('start', (room) => startTimer(room));
