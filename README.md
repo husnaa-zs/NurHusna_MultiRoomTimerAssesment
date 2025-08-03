@@ -45,7 +45,9 @@ Usage
 3.A sound alert will play when timer finishes
 
 About This Project
+
 This was created as part of an interview assessment to demonstrate:
+
 1.Setting up a real-time backend using Socket.IO
 
 2.Connecting a Nuxt frontend with live data updates
@@ -53,6 +55,9 @@ This was created as part of an interview assessment to demonstrate:
 3.Building basic interactive UI components in Vue
 
 Next Steps
+
 •Add individual room management (names, durations)
+
 •Improve UI design
+
 •Deploy to cloud (Vercel/Netlify for frontend, Render/Heroku for backend)
