@@ -33,7 +33,7 @@ How to Run Locally
    • node app.js
    Backend will run on: http://localhost:5000
    
-4. Setup Frontend
+3. Setup Frontend
    • cd frontend
    • npm install
    • npm run dev
@@ -54,10 +54,15 @@ This was created as part of an interview assessment to demonstrate:
 
 3.Building basic interactive UI components in Vue
 
-Next Steps
+## Next Steps
 
-•Add individual room management (names, durations)
+- **Add individual room management**  
+  Allow setting custom room names and durations.
 
-•Improve UI design
+- **Improve UI design**  
+  Enhance the interface for better usability and aesthetics.
 
-•Deploy to cloud (Vercel/Netlify for frontend, Render/Heroku for backend)
+- **Deploy the project**  
+  - Frontend: Host on [Vercel](https://vercel.com) or [Netlify](https://www.netlify.com)  
+  - Backend: Host on [Render](https://render.com) or [Heroku](https://www.heroku.com)
+
